@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		FC22930822A4F3EF00930FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC22930722A4F3EF00930FF2 /* AppDelegate.swift */; };
-		FC22930A22A4F3EF00930FF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC22930922A4F3EF00930FF2 /* ViewController.swift */; };
-		FC22930D22A4F3EF00930FF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC22930B22A4F3EF00930FF2 /* Main.storyboard */; };
 		FC22930F22A4F3F100930FF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC22930E22A4F3F100930FF2 /* Assets.xcassets */; };
 		FC22931222A4F3F100930FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC22931022A4F3F100930FF2 /* LaunchScreen.storyboard */; };
+		FC3EECE722A50F3E00C64994 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EECE622A50F3E00C64994 /* HomeViewController.swift */; };
+		FC3EECE922A50F4400C64994 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EECE822A50F4400C64994 /* MineViewController.swift */; };
+		FC3EECEB22A50F6100C64994 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EECEA22A50F6100C64994 /* VideoViewController.swift */; };
+		FC3EECED22A50F8600C64994 /* HuosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3EECEC22A50F8600C64994 /* HuosViewController.swift */; };
+		FCD5418122A4F87F0078B7D2 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5418022A4F87F0078B7D2 /* MainTabBarViewController.swift */; };
+		FCD5418322A4F9170078B7D2 /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD5418222A4F9170078B7D2 /* MainNavViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC22930422A4F3EF00930FF2 /* SinaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC22930722A4F3EF00930FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC22930922A4F3EF00930FF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC22930C22A4F3EF00930FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC22930E22A4F3F100930FF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC22931122A4F3F100930FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC22931322A4F3F100930FF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3EECE622A50F3E00C64994 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FC3EECE822A50F4400C64994 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		FC3EECEA22A50F6100C64994 /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		FC3EECEC22A50F8600C64994 /* HuosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuosViewController.swift; sourceTree = "<group>"; };
+		FCD5418022A4F87F0078B7D2 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		FCD5418222A4F9170078B7D2 /* MainNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				FC22930722A4F3EF00930FF2 /* AppDelegate.swift */,
-				FC22930922A4F3EF00930FF2 /* ViewController.swift */,
-				FC22930B22A4F3EF00930FF2 /* Main.storyboard */,
+				FCD5418022A4F87F0078B7D2 /* MainTabBarViewController.swift */,
+				FCD5418222A4F9170078B7D2 /* MainNavViewController.swift */,
+				FC3EECE622A50F3E00C64994 /* HomeViewController.swift */,
+				FC3EECE822A50F4400C64994 /* MineViewController.swift */,
+				FC3EECEA22A50F6100C64994 /* VideoViewController.swift */,
+				FC3EECEC22A50F8600C64994 /* HuosViewController.swift */,
 				FC22930E22A4F3F100930FF2 /* Assets.xcassets */,
 				FC22931022A4F3F100930FF2 /* LaunchScreen.storyboard */,
 				FC22931322A4F3F100930FF2 /* Info.plist */,
@@ -124,7 +136,6 @@
 			files = (
 				FC22931222A4F3F100930FF2 /* LaunchScreen.storyboard in Resources */,
 				FC22930F22A4F3F100930FF2 /* Assets.xcassets in Resources */,
-				FC22930D22A4F3EF00930FF2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +146,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC22930A22A4F3EF00930FF2 /* ViewController.swift in Sources */,
+				FCD5418122A4F87F0078B7D2 /* MainTabBarViewController.swift in Sources */,
 				FC22930822A4F3EF00930FF2 /* AppDelegate.swift in Sources */,
+				FC3EECEB22A50F6100C64994 /* VideoViewController.swift in Sources */,
+				FCD5418322A4F9170078B7D2 /* MainNavViewController.swift in Sources */,
+				FC3EECE722A50F3E00C64994 /* HomeViewController.swift in Sources */,
+				FC3EECE922A50F4400C64994 /* MineViewController.swift in Sources */,
+				FC3EECED22A50F8600C64994 /* HuosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FC22930B22A4F3EF00930FF2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC22930C22A4F3EF00930FF2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC22931022A4F3F100930FF2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
